@@ -1,2 +1,3 @@
 # -liunx-
+# 本文件的主要是给liunx连接手柄的情况下的一个摇杆功能的检测。
 整个过程是：手柄 → 蓝牙 → Linux 驱动 → /dev/input/event25 → Python 读取并解析
